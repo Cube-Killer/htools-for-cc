@@ -1,5 +1,5 @@
 rednet.open("back")
-
+print = ("How Much SPAM?")
 count = read()
 count = tonumber(count)
 
@@ -10,4 +10,6 @@ for i = 1, count do
     rednet.broadcast("   s   p    a  a m m m  m m m")
     rednet.broadcast("sss    p    a  a m m m  m m m")
     rednet.broadcast("----------------------")
+    os.sleep(0)
 end
+print = ("SPAM Completed")
