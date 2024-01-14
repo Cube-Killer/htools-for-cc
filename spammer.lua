@@ -1,7 +1,7 @@
 rednet.open("back")
-print = ("Spammer 1.0")
-print = ("How Much SPAM?")
+
 count = read()
+print = ("How Much SPAM?")
 count = tonumber(count)
 
 for i = 1, count do 
